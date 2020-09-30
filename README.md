@@ -36,5 +36,18 @@ pip3 install -r requirements.txt
 
 ---
 
+### Launch the notebook using port forwarding
+
+In the terminal launch the notebook using:
+
+``
+jupyter notebook --no-browser --port=8888
+``
+
+On your laptop forward the port:
+
+``
+ssh -N -f -L localhost:8889:localhost:8888 userid@hepgpuX.blackett.manchester.ac.uk
+``
 
 
