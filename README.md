@@ -58,8 +58,13 @@ http://localhost:8889/?token=xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 into the address bar. The token will be displayed in the remote terminal. 
 
+---
 
-When you're finished you should kill the process that is listening on port 8889. You can find the pid on Mac OSX using:
+### Cleaning up
+
+You can kill the notebook by closing the tab in your browser and then hitting `CTRL+C` in the remote terminal.
+
+After that you should also kill the process that is listening on port 8889. You can find the pid on Mac OSX using:
 
 ``
 lsof -n -i4TCP:8889 | grep LISTEN
