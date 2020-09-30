@@ -1,5 +1,7 @@
 # GPU_tutorial
 
+### Get the code
+
 In your working directory you should clone this repository:
 
 ``
