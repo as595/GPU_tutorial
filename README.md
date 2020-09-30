@@ -1,12 +1,16 @@
 # GPU_tutorial
 
+---
+
 ### Get the code
 
 In your working directory you should clone this repository:
 
 ``
-git clone 
+git clone https://github.com/as595/GPU_tutorial.git
 ``
+
+---
 
 ### Setting up your environment
 
