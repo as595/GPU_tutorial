@@ -1,5 +1,11 @@
 # GPU_tutorial
 
+In your working directory you should clone this repository:
+
+``
+git clone 
+``
+
 ### Setting up your environment
 
 I like to use [virtualenv](https://pypi.org/project/virtualenv/) to make sure I'm running in a well-defined environment. 
@@ -23,3 +29,6 @@ pip3 install -r requirements.txt
 ``
 
 ---
+
+
+
